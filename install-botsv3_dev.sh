@@ -6,11 +6,35 @@ read -p "Splunk admin Username: " splunk_user
 read -sp "Splunk admin Password: " splunk_password
 splunk_home=/opt/splunk
 
-# Loop through all the Splunk Apps within the present working directory, and install them to Splunk
+# Install all the associated BOTS Apps
 
-for f in ./botsapps/*;
-do $splunk_home/bin/splunk install app $f  -auth "$splunk_user:$splunk_password";
-done
+$splunk_home/bin/splunk install app SA-cim_vladiator-master.zip -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app add-on-for-microsoft-sysmon_800.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app amazon-guardduty-add-on-for-splunk_104.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app cisco-anyconnect-network-visibility-module-nvm-app-for-splunk_218.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app code42-for-splunk_3012.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app decrypt_20.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app lookup-file-editor_331.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app microsoft-365-app-for-splunk_301.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app microsoft-azure-add-on-for-splunk_202.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app microsoft-office-365-reporting-add-on-for-splunk_124.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app osquery-app-for-splunk_060.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app parallel-coordinates-custom-visualization_140.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app simple-timeseries-custom-visualization_10.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-amazon-web-services_500.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-cisco-asa_340.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-microsoft-cloud-services_401.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-microsoft-office-365_201.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-microsoft-windows_700.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-symantec-endpoint-protection_301.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-tenable_514.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-add-on-for-unix-and-linux_701.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-common-information-model-cim_4150.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-es-content-update_1052.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app splunk-timeline-custom-visualization_140.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app ta-for-code42-app-for-splunk_3012.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app url-toolbox_18.tgz -auth "$splunk_user:$splunk_password"
+$splunk_home/bin/splunk install app virustotal-workflow-actions-for-splunk_020.tgz -auth "$splunk_user:$splunk_password"
 
 # Install the CTF Scoreboard
 
