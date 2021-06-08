@@ -5,6 +5,38 @@ Splunk Boss of the SOC v3 Setup
 
 We have created a detailed install guide posted on our blogsite found here:
 
+## SHA256 Hashes for Script and BOTS Apps
+
+5ee14ee9fbc0934fd4e3285417479f6389fcf4c974b45f0e149fcbff3f31a683  install-botsv3.sh
+
+afcffef751500c6ca140770a60a489398993a01766528b5cfbb0798d8bf31290  SA-cim_vladiator-master.zip
+1e0f6292b2ed25d0fae18fe7128aa207f22794db31d22bf6abf6ed197c6910b1  add-on-for-microsoft-sysmon_800.tgz
+de18629dcf3e507cb676af42d64aa02e4142253465f4fec70b93462f0426f2be  amazon-guardduty-add-on-for-splunk_104.tgz
+24fef10b515a2ce30ab712a6fd6ca123ab601cb2f505d521a7db9970de4ea324  cisco-anyconnect-network-visibility-module-nvm-app-for-splunk_218.tgz
+821d8118d80199796d74d3a2b000d1e439150faaccdc8caa11ddee42a5546f53  code42-for-splunk_3012.tgz
+5cdf25ce71e4e478c48fd8c82f258af88a17590143fd0729470f2b7d26cb1737  decrypt_20.tgz
+f48a0682540294f50e944364da0718ac038c4f73c6a02862ab80cdfa2fefcf12  lookup-file-editor_331.tgz
+48ed7f9ef6e64ccb0eac25d043d1d49b7f9edbc744fe2e52eadf268f0384c17d  microsoft-365-app-for-splunk_301.tgz
+415b41de7a37fe47c42712b7c66487e135cf8c74876361308009310a9d976bf1  microsoft-azure-add-on-for-splunk_202.tgz
+0b3f0c94772b700612c8bb5e570b35fe09642d4a722c0290ab7e801bced55935  microsoft-office-365-reporting-add-on-for-splunk_124.tgz
+b6b5a0a74727520292d53d54d78a5136db4b8f17266f3a253dd5839e6abc0e2f  osquery-app-for-splunk_060.tgz
+ad7f8c211bb0a3b1af1c1fdbc4004f08c37b8e522335df72ccc9bcfa7691a4ad  parallel-coordinates-custom-visualization_140.tgz
+d20183785ffe6766f3c4bf5cc3caa7810d4c68abf38fbf4c6755ab796bf36748  simple-timeseries-custom-visualization_10.tgz
+9f83b3432393e6c8ad8f67d6d92fb6d1d07edc6b8c20ed951e154ce188e1a3b3  splunk-add-on-for-amazon-web-services_500.tgz
+71bac7ccebbb4aa101bc0420810e4cecd7f8aed97d61eb74d530fd0991a3df9f  splunk-add-on-for-cisco-asa_340.tgz
+0112e205d3c9d248b3e2ccfdd021f4b1185ab7a1162eba57f500b03506975ac0  splunk-add-on-for-microsoft-cloud-services_401.tgz
+f298a5d15c5412bcb13c048d2efd8c6bcce78ed054e3c7ee3bb399699a1d9652  splunk-add-on-for-microsoft-office-365_201.tgz
+dfadf44bcbc7ebd0d7858eba370b477626c2d8046b49aab621d2803400507c41  splunk-add-on-for-microsoft-windows_700.tgz
+b5c3cbbecc7c2424120be100b4486e0fb4750bf8c116a0bd560d431983d2ac2b  splunk-add-on-for-symantec-endpoint-protection_301.tgz
+2f406f209b9bf4784ef75453648ec05c51f467b6e17094c4a49c3e35cd1c25af  splunk-add-on-for-tenable_514.tgz
+c3d2e31c20553931cc8c7ad54f05ee8cc2291022b9f9c2c457c9f32d1b47b287  splunk-add-on-for-unix-and-linux_701.tgz
+f68d4d50e2c2ed43d3335fb09eac1c33c447ec1dac2c208d8f9858ca452155e1  splunk-common-information-model-cim_4150.tgz
+1baff471e1e9eacae63ab22aa782b38b07a2f148857b5975e54f4316b16e2b87  splunk-es-content-update_1052.tgz
+94f207421dbca659a573e4e750ce20ba13ed3073e4991e1a04a41bb45bc40f44  splunk-timeline-custom-visualization_140.tgz
+ee25ecee1cbadafc135dfe9080a1937d47629933a887c769809f9e5c45435c90  ta-for-code42-app-for-splunk_3012.tgz
+312450bb067bd0e3b3dc3030f5e46e44bb4db01f0d265df9dff36a7d1f10fb7a  url-toolbox_18.tgz
+4cedc0c23f2e1e5bfe26b8a157e90ad6c1b8036ffc701d6e2ac89ebdb349ceab  virustotal-workflow-actions-for-splunk_020.tgz
+
 ## Issues / Improvements
 
 Any issues found whilst using the setup script, or improvements are welcome and tracked via this Github repo.
