@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+# Script adapted from the Vagrant DetectionLab/install-botsv3.sh script, found at https://github.com/clong/DetectionLab/blob/master/Vagrant/scripts/install-botsv3.sh
+
 # Enter your default Splunk administrative credentials below
 printf "\nTo proceed with the install please provide your Splunk admin username and password\n"
 read -p "Splunk admin Username: " splunk_user
