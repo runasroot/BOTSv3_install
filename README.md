@@ -3,7 +3,7 @@ Splunk Boss of the SOC v3 Setup
 
 ## Install Guide
 
-We have created a detailed install guide posted on our blogsite found here:
+We have created a detailed install guide posted on our blogsite found here: https://run-as-root.com/2021/06/08/splunk-botsv3-install-and-configuration/
 
 ## SHA256 Hashes for Script and BOTS Apps
 
